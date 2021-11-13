@@ -5,7 +5,7 @@ class DatabaseConnection {
     protected $db_password;
     protected $db_databasename;
     protected $db_port;
-    //protected $db_socket;
+    
     protected $mysqli;
 
     function __construct() {
