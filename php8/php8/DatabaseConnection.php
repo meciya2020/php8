@@ -13,7 +13,7 @@ class DatabaseConnection {
         $this->db_username = 'root';
         $this->db_password =  'root';
         $this->db_databasename = 'php_crud_tutorial';
-       // $this->db_port = 3308;
+       
       //  $this->db_socket = '/Applications/MAMP/tmp/mysql/mysql.sock';
         $this->db_connect();
     }
